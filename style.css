@@ -1,0 +1,164 @@
+/*
+*{
+background-color:rgba(0,0,0,0.1);
+}*/
+
+body{
+  background-color:black;  
+  width:1270px;
+}
+
+
+/*middle cross*/
+
+.hor{
+  border-top:2px solid white;
+  width:100px;
+  clear:all;
+}
+
+.ver{
+  border-top:2px solid pink;
+  width:100px;
+  clear:all;
+  transform: rotateZ(90deg);
+}
+
+.wraper{
+  display:table;
+  margin: auto;
+  position:relative;
+  z-index:2;
+  top:130px;  
+}
+
+/*begins hover section*/
+
+.hoverit{
+  color:white;
+  font-size:30px;
+  position:relative;
+  float:left;
+  
+}
+
+.first{
+  color:white;
+  font-size:40px;
+  position:absolute;
+  float:left;
+  padding-top:60px;
+  
+}
+
+.h:hover{
+  color:white;
+}
+.e:hover{
+  color:green;
+}
+.y:hover{
+  color:yellow;
+}
+.m:hover{
+  color:#E8DF5D;
+}
+.n:hover{
+  color:#899EBD;
+}
+.a:hover{
+  color:#F7BEF7;
+}
+.i:hover{
+  color:yellow;
+}
+.s:hover{
+  color:#FC0022;
+}
+
+/*begins check section*/
+
+.check{
+  color:white;
+  font-size:30px;
+  float:right;
+  position:relative;
+  
+}
+
+#checktoggler{
+  display:none;
+}
+
+.toggle{
+  position:relative;
+  float:right;
+  top:5px;
+  text-decoration:none;
+  font-size: 30px;
+  cursor:pointer;
+  margin-right:-70px;
+  z-index:1;
+}
+
+.second{
+  color:white;
+  font-size:40px;
+  position:relative;
+  float:right;
+  padding-top:60px;
+  margin-right:-110px;
+}
+
+#checktoggler:checked + .page-wraper .second .e-check{
+  color:green;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+#checktoggler:checked + .page-wraper .second .y-check{
+  color:yellow;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+#checktoggler:checked + .page-wraper .second .m-check{
+  color:#E8DF5D;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+#checktoggler:checked + .page-wraper .second .n-check{
+  color:#899EBD;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+#checktoggler:checked + .page-wraper .second .a-check{
+  color:#F7BEF7;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+#checktoggler:checked + .page-wraper .second .i-check{
+  color:yellow;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+#checktoggler:checked + .page-wraper .second .s-check{
+  color:#FC0022;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+  
+  
+  

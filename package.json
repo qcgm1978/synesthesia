@@ -1,0 +1,15 @@
+{
+  "name": "e77a4b2784d247686c5364ef1fd372dd-989027663f37cbf96bc6f0aece43cf169d52a50a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
