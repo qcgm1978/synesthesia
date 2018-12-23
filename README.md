@@ -1,12 +1,8 @@
-Synesthesia: Hover vs Checkbox
-------------------------------
-Just a small exercise with HTML and CSS that tries to materialize my synesthesia using either the hover pseudo class over letters or a checkbox state. The colors you see are the actual colors I project in my head for each letter (well, approximately..synesthesia can be very complex, trust me).
+# Synesthesia:
 
+>  ‘SEEING’ MUSIC OR ‘TASTING’ NUMBERS? HERE’S WHAT WE CAN LEARN FROM PEOPLE WITH SYNAESTHESIA
 
-
-# Synesthesia: 
-
-
+[![Possible neural basis for grapheme-colour synesthesia. The green region is the visual pathway involved in recognising letters and numbers (graphemes) while the red one is involved in colour processing. - Image Credit: Edhubbard at English Wikipedia, CC BY-SA](https://static1.squarespace.com/static/54bf12d2e4b0f0d81bf74ee7/t/5897c5655016e1eeef616912/1486341484215/?format=1500w)](https://www.universal-sci.com/headlines/2017/2/5/seeing-music-or-tasting-numbers-heres-what-we-can-learn-from-people-with-synaesthesia)
 
 # Hover vs Checkbox(index.html) 
 
