@@ -24,6 +24,15 @@ The color-letter relation from [Trends in colored letter synesthesia](http://web
 
 The CSS color keywords support all the typical color in English language or all human language: [<color>](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) from MDN.
 
+# Usage
+
+Install using npm:
+
+```
+npm install
+npm start
+```
+
 # TODO
   - RANDOM algorithm optimization
   - Maybe calling [Probability.js](https://github.com/fschaefer/Probability.js)
