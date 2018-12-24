@@ -11,7 +11,7 @@ $(() => {
                     const color = colorArr.find((item, index) => {
                         return probability >= item.val && probability <= colorArr[index + 1].val
                     }).prop
-                    return accumulator + `<span style='color:${color};'>${item}</span>`
+                    return accumulator + `<span class='${color}'>${item}</span>`
                 } else {
                     return accumulator + item
                 }

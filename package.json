@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run sass & http-server & open http://127.0.0.1:8080/convert.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass color.scss color.css --watch"
   },
   "keywords": [],
   "author": "",
