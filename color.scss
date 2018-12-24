@@ -1,0 +1,16 @@
+$color: 'black' 'white' 'red' 'green' 'yellow' 'blue' 'brown' 'purple' 'pink' 'orange' 'gray';
+
+
+@each $key, $value in $color {
+  .#{nth($value, 1)} {
+    color: $key;
+  }
+
+  // .bg-#{nth($value, 1)} {
+  //   background-color: nth($value, 2);
+  // }
+
+  // .border-#{nth($value, 1)} {
+  //   border-color: nth($value, 2);
+  // }
+}
